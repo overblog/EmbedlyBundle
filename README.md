@@ -15,7 +15,7 @@ Installation
 
             [OverblogEmbedlyBundle]
                 git=git://github.com/ebuzzing/OverblogEmbedlyBundle.git
-                target=/bundles/Overblog/Bundle/EmbedlyBundle
+                target=/bundles/Overblog/EmbedlyBundle
 
             [embedly-php]
                 git=git://github.com/embedly/embedly-php.git
@@ -27,7 +27,7 @@ Installation
 
       * Using git submodules.
 
-            $ git submodule add git=git://github.com/ebuzzing/OverblogEmbedlyBundle.git vendor/bundles/Overblog/Bundle/EmbedlyBundle
+            $ git submodule add git=git://github.com/ebuzzing/OverblogEmbedlyBundle.git vendor/bundles/Overblog/EmbedlyBundle
             $ git submodule add git://github.com/embedly/embedly-php.git vendor/embedly-php
 
   2. Add the Overblog namespace to your autoloader:

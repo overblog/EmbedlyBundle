@@ -1,0 +1,8 @@
+parameters:
+    overblog_embedly.class: Embedly\Embedly
+    overblog_embedly.config:
+
+services:
+    overblog_embedly:
+        class: %overblog_embedly.class%
+        arguments: [%overblog_embedly.config%]

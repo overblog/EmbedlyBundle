@@ -51,7 +51,7 @@ Installation
           {
               return array(
                   // ...
-                  new Overblog\Bundle\EmbedlyBundle\OverblogEmbedlyBundle(),
+                  new Overblog\EmbedlyBundle\OverblogEmbedlyBundle(),
                   // ...
               );
           }

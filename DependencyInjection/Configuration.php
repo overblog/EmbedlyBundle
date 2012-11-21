@@ -23,13 +23,10 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->arrayNode('config')
-                    //->ignoreExtraKeys(true)->end()
-                    ->useAttributeAsKey('config') //->prototype('array')
-                        ->children()
-                            ->scalarNode('key')->end()
-                            ->end()
+                    ->children()
+                        ->scalarNode('key')->end()
                         ->end()
-                    //->end()
+                    ->end()
                 ->end()
             ->end()
         ;

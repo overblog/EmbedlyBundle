@@ -1,7 +1,7 @@
 {
     "name": "overblog/embedly-bundle",
     "description": "OverBlog Embedly Bundle",
-    "homepage": "https://github.com/ebuzzing/OverblogEmbedlyBundle.git",
+    "homepage": "https://github.com/overblog/EmbedlyBundle.git",
     "type": "library",
     "authors": [
         {

@@ -4,5 +4,5 @@ parameters:
 
 services:
     overblog_embedly:
-        class: %overblog_embedly.class%
-        arguments: [%overblog_embedly.config%]
+        class: '%overblog_embedly.class%'
+        arguments: ['%overblog_embedly.config%']
